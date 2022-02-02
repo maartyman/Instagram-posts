@@ -1,5 +1,5 @@
 var userFeed = new Instafeed({
-    accessToken: InstagramToken,
+    accessToken: InstagramToken, //add your instagram api toke here
     limit: 25,
     sortBy: 'most-recent',
     template: '<a class="slide" href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
